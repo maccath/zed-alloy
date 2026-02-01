@@ -1,0 +1,9 @@
+name = "Alloy"
+grammar = "alloy"
+path_suffixes = ["alloy"]
+tab_size = 2
+brackets = [
+  { start = "{", end = "}", close = true, newline = false },
+  { start = "[", end = "]", close = true, newline = false },
+  { start = "\"", end = "\"", close = true, newline = false },
+]

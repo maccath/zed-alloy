@@ -1,0 +1,11 @@
+id = "grafana-alloy"
+name = "Grafana Alloy"
+schema_version = 1
+version = "0.1.0"
+authors = ["maccath"]
+description = "Syntax highlighting for Grafana Alloy .alloy files."
+repository = "https://github.com/maccath/zed-alloy"
+
+[grammars.alloy]
+repository = "https://github.com/mattsre/tree-sitter-alloy"
+commit = "58d462b1cdb077682b130caa324f3822aeb00b8e"
