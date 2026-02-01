@@ -3,7 +3,8 @@
 [Grafana Alloy](https://grafana.com/oss/alloy-opentelemetry-collector/) language
 and syntax highlighting extension for the [Zed](https://zed.dev/) IDE.
 
-Uses the [Grafana Alloy Tree-sitter grammar](https://github.com/mattsre/tree-sitter-alloy/) by @mattsre
+Uses the [Grafana Alloy Tree-sitter grammar](https://github.com/mattsre/tree-sitter-alloy/) 
+by [@mattsre](https://github.com/mattsre)
 
 ## Screenshot
 
