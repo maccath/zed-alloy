@@ -1,0 +1,20 @@
+// this is a comment
+log_level = "debug"
+
+labelled.block "a_block_label" {
+  test_number = 10
+  test_decimal = 1.5
+  test_bool = false
+  test_array = ["a", "b", "c"]
+  test_object = {
+    "__path__" = "/tmp/app-logs/app.log"
+  }
+
+  nested.unlabelled.block {
+    some_attribute = "a string"
+    "string attribute" = 1234
+  }
+
+  noValue = null
+  realHostname = coalesce(sys.env("HOSTNAME"), "node")
+}
